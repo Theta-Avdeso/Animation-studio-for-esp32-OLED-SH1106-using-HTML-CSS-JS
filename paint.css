@@ -1,0 +1,143 @@
+body {
+    background: rgb(166, 166, 168);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#studio {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#ai {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+
+#sources {
+    position:absolute;
+    top: 30px;
+    left: 1330px;
+    display: none;
+    vertical-align: middle;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#ai:focus ~ #sources{
+    display:block;
+}
+
+#sources:hover {
+    display:block;
+}
+
+#ai:focus {
+    height: 400px;
+    width: 200px;
+}
+
+
+#toolbar {
+    margin: 15px;
+    color: #fff;
+    padding:10px 10px;
+    background: #868686;
+    margin: 10px 15px;
+    border-radius: 45px;
+}
+
+#frames {
+    margin: 10px;
+    color: #fff;
+    padding:10px 10px;
+    background: #868686;
+    margin: 0 10px;
+    border-radius: 45px;
+}
+
+#board {
+    width: 512px;
+    height: 256px;
+    image-rendering: pixelated;
+    border: 1px solid black;
+    background: white;
+    cursor: crosshair;
+    margin: 10px 10px;
+}
+
+#pen {
+    color: #fff;
+    padding:10px 10px;
+    background: linear-gradient(90deg, #490815, #390303);
+    margin: 0 10px;
+    border-radius: 45px;
+}
+
+#erraser {
+    color: #fff;
+    padding:10px 10px;
+    background: linear-gradient(90deg, #490815, #390303);
+    margin: 0 10px;
+    border-radius: 45px;
+}
+
+#fill-button {
+    color: #fff;
+    padding:10px 10px;
+    background: linear-gradient(90deg, #490815, #390303);
+    margin: 0 10px;
+    border-radius: 45px;
+}
+
+#send-button {
+    color: #fff;
+    padding:10px 10px;
+    background: linear-gradient(90deg, #490815, #390303);
+    margin: 0 10px;
+    border-radius: 45px;
+}
+
+#f1 {
+    color: #fff;
+    padding:10px 10px;
+    background: linear-gradient(90deg, #1a0b66, #260e5a);
+    margin: 0 10px;
+    border-radius: 45px;
+}
+
+#f2 {
+    color: #fff;
+    padding:10px 10px;
+    background: linear-gradient(90deg, #1a0b66, #260e5a);
+    margin: 0 10px;
+    border-radius: 45px;
+}
+
+#f3 {
+    color: #fff;
+    padding:10px 10px;
+    background: linear-gradient(90deg, #1a0b66, #260e5a);
+    margin: 0 10px;
+    border-radius: 45px;
+}
+
+#f4 {
+    color: #fff;
+    padding:10px 10px;
+    background: linear-gradient(90deg, #1a0b66, #260e5a);
+    margin: 0 10px;
+    border-radius: 45px;
+}
+
+#f5 {
+    color: #fff;
+    padding:10px 10px;
+    background: linear-gradient(90deg, #1a0b66, #260e5a);
+    margin: 0 10px;
+    border-radius: 45px;
+}
