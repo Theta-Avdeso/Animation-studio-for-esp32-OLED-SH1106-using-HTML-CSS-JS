@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Paint</title>
+        <link rel="stylesheet" href="paint.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"/>
+    </head>
+    <body>
+        <div id="studio">
+            <div id="toolbar">
+                <button id="pen"><i class="fa-solid fa-pen"></i></button>
+                <button id="erraser"><i class="fa-solid fa-eraser"></i></button>
+                <input type="range" id="brush-size" min="1" max="10" value="3">
+                <button id="fill-button"><i class="fa-solid fa-fill"></i></button>
+                <button id="send-button"><i class="fa-regular fa-paper-plane"></i></i></button>
+            </div>
+            <div id="frames">
+                <button id="f1"><i class="fa-solid fa-1"></i></button>
+                <button id="f2"><i class="fa-solid fa-2"></i></button>
+                <button id="f3"><i class="fa-solid fa-3"></i></button>
+                <button id="f4"><i class="fa-solid fa-4"></i></button>
+                <button id="f5"><i class="fa-solid fa-5"></i></button>
+            </div>
+            <canvas id="board" width="128" height="64"></canvas>
+        </div>
+        <button id="ai"><i class="fa-solid fa-xmark"></i><i class="fa-brands fa-openai"></i></button>
+        <div id="sources">
+            <h4> This project containts 0 AI generated content</h4>
+            <h6> Human made sources:</h6>
+            <button id="source1" onclick="location.href='https://www.youtube.com/watch?v=TYiFhk9hKy0&t=2s';">paint studio tutorial</button>
+            <button id="source2" onclick="location.href='https://docs.arduino.cc/libraries/wifi/#Server%20class';">WiFi library esp32s3</button>
+            <button id="source3" onclick="location.href='https://www.freecodecamp.org/news/javascript-post-request-how-to-send-an-http-post-request-in-js/';">js POST fucntion over WiFi</button>
+            <button id="source4" onclick="location.href='https://www.youtube.com/watch?v=LHCe6Cn-mx8';">CSS Button styling</button>
+        </div>
+        <script src="paint.js"></script>
+    </body>
+</html>
